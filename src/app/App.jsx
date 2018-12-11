@@ -6,7 +6,7 @@ import { Redirect, Route, Router, Switch } from 'react-router-dom';
 
 import MainRoute from './routes';
 import { storeHistory } from 'store/configureStore';
-import { IntlWrapper, Spinner, NotFound } from './containers';
+import { IntlWrapper, Spinner, NotFound } from './view/components';
 
 const InitialPath = ({ component: Component, isLoggedIn, ...rest }) =>
   <Route

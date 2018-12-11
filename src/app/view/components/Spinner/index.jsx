@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { isSpinnerLoading } from 'store/common/spinner';
+import { isSpinnerLoading } from '../../containers/spinner';
 
 import './styles.scss';
 

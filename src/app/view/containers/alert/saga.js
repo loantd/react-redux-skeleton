@@ -1,7 +1,7 @@
 import { put, takeLatest } from 'redux-saga/effects';
 
 import { AlertActionTypes } from './types';
-import { showError } from 'store/common/alert/actions';
+import { showError } from './actions';
 
 /**
  * Handle alert error sage

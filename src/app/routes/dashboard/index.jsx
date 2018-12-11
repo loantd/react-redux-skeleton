@@ -1,8 +1,8 @@
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
-import ChatContainer from './chat';
-import HomeContainer from '../../../view/containers/Home';
+import {ChatContainer} from './chat/index';
+import {HomeContainer} from './home/index';
 
 const DashboardRoutes = ({ match }) => {
   return (

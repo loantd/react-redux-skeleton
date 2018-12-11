@@ -1,0 +1,1 @@
+export { default as HomeContainer } from '../../../view/containers/Home/index';

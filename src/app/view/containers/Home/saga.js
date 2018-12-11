@@ -6,7 +6,7 @@ import {
 import { getHomeSuccess, getHomeError } from './actions';
 
 import { getSearchText } from './selectors';
-import TestAlbum from '../../../services/api/api.fake';
+import TestAlbum from '../../../../services/api/api.fake';
 
 function* fetchHomeWorker(action) {
   try {
@@ -20,8 +20,8 @@ function* fetchHomeWorker(action) {
     yield put(getHomeError(err));
   }
 }
-export default function* HomeWatcher() {
-  yield [
-    takeEvery(GET_HOME_START, fetchHomeWorker)
-  ];
-}
+
+const homeWatcher = [
+  takeEvery(GET_HOME_START, fetchHomeWorker)
+];
+export default homeWatcher;

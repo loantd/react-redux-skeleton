@@ -6,7 +6,8 @@ import { createLogger } from 'redux-logger';
 import createSagaMiddleware, { END } from 'redux-saga';
 import { pick } from 'lodash';
 
-import { reducers, sagas } from '.';
+import { reducers} from '.';
+import sagas from '../store/sagas';
 import { Helpers } from 'common';
 
 const logger = createLogger({
