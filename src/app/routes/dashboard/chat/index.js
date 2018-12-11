@@ -1,12 +1,12 @@
 import React from 'react';
 import ChatContainer from '../../../views/containers/Chat/index';
-import Wrapper from '../../../views/components/Wrapper';
+
 
 const chatIndex = () => {
   return (
-    <Wrapper>
+   <React.Fragment>
       <ChatContainer />
-    </Wrapper>
+   </React.Fragment>
   );
 };
 export default chatIndex;

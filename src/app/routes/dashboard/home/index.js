@@ -1,10 +1,9 @@
 import React from 'react';
 import HomeContainer from '../../../views/containers/Home/index';
-import Wrapper from '../../../views/components/Wrapper';
 
 const homeIndex = () => (
-  <Wrapper>
+  <React.Fragment>>
     <HomeContainer />
-  </Wrapper>
+  </React.Fragment>
 );
 export default homeIndex;
