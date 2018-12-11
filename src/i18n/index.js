@@ -16,19 +16,19 @@ import frLocaleData from './fr.json';
 import esLocaleData from './es.json';
 
 export const messages = {
-    en: enLocaleData,
-    fr: frLocaleData,
-    es: esLocaleData
+  en: enLocaleData,
+  fr: frLocaleData,
+  es: esLocaleData
 };
 
 export let locale = (navigator.language ||
-    navigator.languages && navigator.languages[0]);
+  navigator.languages && navigator.languages[0]);
 
 // If query param that get from URL has value ('lang' query parameter) using it\
 const langQuery = Helper.getUrlVars();
 
 if (langQuery.lang && messages[langQuery.lang]) {
-    locale = langQuery.lang;
+  locale = langQuery.lang;
 }
 
 // Split locales with a region code

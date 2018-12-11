@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom';
 
-import Dashboard from './dashboard/Dashboard';
+import Dashboard from '../views/components/Dashboard/Dashboard';
 
 import 'assets/css/sass/app.scss';
 

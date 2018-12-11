@@ -5,7 +5,7 @@ import { IntlProvider } from 'react-intl';
 import { connect } from 'react-redux';
 
 import { languageWithoutRegionCode as defaultLocale, messages } from 'i18n';
-import { getNewLocale } from '../../containers/language';
+import { getNewLocale } from '../../containers/Language';
 
 class IntlWrapper extends Component {
   render() {

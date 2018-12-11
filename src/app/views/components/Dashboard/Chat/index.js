@@ -1,8 +1,7 @@
 import React from 'react';
-import { showInfo } from '../../containers/alert';
+import { showInfo } from '../../../containers/Alert/actions';
 
 class Chat extends React.Component {
-
   send() {
     this.props.dispatch(showInfo('Test message'));
   }

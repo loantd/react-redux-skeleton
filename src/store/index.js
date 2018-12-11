@@ -4,15 +4,15 @@ import { routerReducer } from 'react-router-redux';
 
 // Import your state types and reducers here.
 // Alert
-import alertReducer from '../app/view/containers/alert/reducer';
+import alertReducer from '../app/views/containers/Alert/reducer';
 // Language
-import languageReducer from '../app/view/containers/language/reducer';
+import languageReducer from '../app/views/containers/Language/reducer';
 // Spinner
-import spinnerReducer from '../app/view/containers/spinner/reducer';
+import spinnerReducer from '../app/views/containers/Spinner/reducer';
 // Modal
-import modalReducer from '../app/view/containers/spinner/reducer';
+import modalReducer from '../app/views/containers/Modal/reducer';
 // home
-import reducerHome from '../app/view/containers/Home/reducer';
+import reducerHome from '../app/views/containers/Home/reducer';
 
 
 // Whenever an action is dispatched, Redux will update each top-level application state property

@@ -1,7 +1,7 @@
 import { lifecycle, compose } from 'recompose';
 import { connect } from 'react-redux';
 import { getHomeStart, toggleShow } from './actions';
-import Home from '../../components/Home';
+import Home from '../../components/Dashboard/Home';
 
 const mapStateToProps = (state) => {
   return {
